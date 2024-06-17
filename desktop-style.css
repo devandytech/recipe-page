@@ -1,23 +1,25 @@
-* {
+@media only screen and (min-width: 600px) and (max-width: 1440px) {
+ * {
     margin: 0;
     padding: 0;
 }
 body {
     font-family: ; 
-    width: 375px;
+    width: 1440px;
     margin: 0 auto;
     color: hsl(30, 10%, 34%);
     background: hsl(0, 0%, 100%);
 }
 .container {
-    width: 85%;
+    width: 50%;
     margin: 0 auto;
     padding: ;
 }
 img {
-    width: 375px;
+    width: 50%;
     /*height: ; optional*/
     margin: auto;
+    align-item: center;
 }
 h1 {
     margin: 10px auto;
@@ -119,4 +121,5 @@ span#fourth {
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
 }
